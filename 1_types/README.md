@@ -74,13 +74,13 @@ function acceptSomeObject(obj: object) {}
 # Function
 
 ```
-function tsAdd(n1: number, n2: number): number {
+  function tsAdd(n1: number, n2: number): number {
     return n1 + n2;
   }
 ```
 
 ```
- function tsFetchNum(id: string): Promise<number> {
+  function tsFetchNum(id: string): Promise<number> {
     //...
     //...
     return new Promise((resolve, reject) => {
@@ -106,7 +106,7 @@ function tsAdd(n1: number, n2: number): number {
 2. Default Parameter
 
 ```
- function printMessage(message: string = "default") {
+  function printMessage(message: string = "default") {
     console.log(message);
   }
 ```
@@ -114,7 +114,7 @@ function tsAdd(n1: number, n2: number): number {
 3. Rest Parameter
 
 ```
-function addNumbers(...numbers: number[]): number {
+  function addNumbers(...numbers: number[]): number {
     return numbers.reduce((a, b) => a + b);
   }
 
@@ -238,7 +238,7 @@ Type Alias: 특정 type만 나오기를 바랄 때 사용한다.
 # Enum
 
 ```
-   enum Days {
+  enum Days {
     Monday = 1,
     Tuesday,
     Wednesday,
