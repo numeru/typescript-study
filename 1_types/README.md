@@ -211,7 +211,7 @@ Type Alias: 특정 type만 나오기를 바랄 때 사용한다.
 
 ---
 
-# intersection
+# Intersection
 
 ```
   type Student = {
@@ -235,7 +235,7 @@ Type Alias: 특정 type만 나오기를 바랄 때 사용한다.
   });
 ```
 
-# enum
+# Enum
 
 ```
    enum Days {
@@ -260,7 +260,7 @@ Type Alias: 특정 type만 나오기를 바랄 때 사용한다.
 
 ---
 
-# inference
+# Inference
 
 Type Inference: type이 자동으로 추론된다.
 
@@ -276,7 +276,7 @@ Type Inference: type이 자동으로 추론된다.
 
 ---
 
-# assertion
+# Assertion
 
 Type Assertion: 여러 type이 나올 수 있는 상황에서 특정 type을 확신할 때 사용한다.
 
