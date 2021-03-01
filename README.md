@@ -2,7 +2,7 @@
 
 타입스크립트 공부한 개념 + 예제코드
 
-## 정리
+## 개념정리
 
 ### [Types](https://github.com/numeru/typescript-study/tree/main/1_types)
 
